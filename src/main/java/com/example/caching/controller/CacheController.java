@@ -18,7 +18,7 @@ public class CacheController {
         logger.info("Inside Test endpoint...");
 
         // Business Logic Implementation
-        logger.info("Please wait... We are still Processing your Data with ID: {}!!", correlationId);
+        logger.info("Please wait... We are still Processing your Data with ID: {}", correlationId);
         Thread.sleep(9000);
 
         logger.info("Thanks for waiting... Data Processed!");
